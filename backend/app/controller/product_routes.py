@@ -8,7 +8,7 @@ from app.services import (
     product_update
 )
 
-productos_bp = Blueprint('productos', __name__)
+productos_bp = Blueprint("productos", __name__, url_prefix="/api/products")
 
 
 # LISTAR PRODUCTOS
